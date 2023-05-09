@@ -117,9 +117,10 @@ header .fa-bars {
     align-items: center;
 
     min-height: 100vh;
-    background: url(../images/900x500_banner_HK-Flexibility-Exercises.webp) rgba(0, 0, 0, 0.7);
+    background: url(../images/home.PNG) rgba(0, 0, 0, 0.7);
     background-blend-mode: multiply;
     background-size: cover;
+    background-position: center center;
     min-height: 650px;
 }
 
@@ -320,11 +321,11 @@ header .fa-bars {
     padding-top: 50px;
     margin-top: 100px;
     padding-bottom: 50px;
-    background: url(../images/vollschuss-glueckliche-frau-auf-dem-boden.jpg) rgba(0, 0, 0, 0.7);
+    background: url(../images/full-shot-happy-woman-indoors.jpg) rgba(0, 0, 0, 0.7);
     background-blend-mode: multiply;
     background-repeat: no-repeat;
-    background-position: center;
     background-size: cover;
+    min-height: 800px;
 
 }
 
@@ -708,7 +709,7 @@ footer h3 {
 
 
 .about-section {
-    background: url(../images/high-angle-frau-sitzt-auf-dem-boden.jpg) no-repeat left;
+    background: url(../images/full-shot-happy-woman-indoors.jpg) no-repeat left;
     background-size: 55%;
     background-color: #fdfdfd;
     overflow: hidden;
