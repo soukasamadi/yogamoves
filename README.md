@@ -1,39 +1,139 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# YogaMoves online Studio website
 
-Welcome,
+YogaMoves is an Online Studio where people find the power to grow and achieve all of their fitness and wellness goals.
 
-This is the Code Institute student template for Codeanywhere. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Codeanywhere and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **March 3rd, 2023**
+You can find the live site [here](https://soukasamadi.github.io/yogamoves/class.html)
 
-## Codeanywhere Reminders
+![amiresponsive view of different sizes](https://ui.dev/amiresponsive?url=https://soukasamadi.github.io/yogamoves/)
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere, in the terminal, type:
+# User Experience
 
-`python3 -m http.server`
+## User Stories
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
+- As a user, i want to be able to understand the functionality at first look
+- As a user, i want to be able to know *why* i should want to be a member
+- As a user, i want to be able to easily Sign In
+- As a user, i want to be able to get in contact with the YogaMoves Studio
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere with no-cache, you can use this alias for `python3 -m http.server`.
+## Target audience
 
-`http_server`
+- The intended user is anyone who wants to find the Practice Yoga 
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+## Key project goals
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
+- Create a website that makes it clear why they would want to join our classes
+- Make it easy to find the best class 
 
-In Codeanywhere you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+## Design
 
-To log into the Heroku toolbelt CLI:
 
-1. Log in to your Heroku account and go to _Account Settings_ in the menu under your avatar.
-2. Scroll down to the _API Key_ and click _Reveal_
-3. Copy the key
-4. In Codeanywhere, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+### Typography
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+- **Verdana** is the font used for the body (with sans serif as fallback) because it is easy to read and looks elegant
 
----
 
-Happy coding!
+### Imagery
+
+Source: [Freepik](https://www.freepik.com/)
+
+### Overall Feel
+
+I wanted to elicit a feeling of Motivation to start a new lifestyle and Yoga routine
+
+### inspiration
+
+I get inspired from [Alo Moves] (https://www.alomoves.com) 
+
+# Features
+
+## Current Features
+
+- The website is made to be fully responsive at all tested device sizes
+- The website is made to be accessible.
+- Navigation menu changes size,design and position for best tablet, phone and desktop use
+- Some pictures changes direction depending on width of device
+- "Become A Member" button on top of all pages  to Sign In.
+
+## Future Features
+
+- Online Yoga Classe for Registred Users
+- Add 14 days Free trial
+- ...
+
+# Technologies Used
+
+## Languages Used
+
+- [HTML5](https://en.wikipedia.org/wiki/HTML5)
+- [CSS3](https://en.wikipedia.org/wiki/CSS)
+
+## Other Aides and Programs Used
+
+- [Font Awesome](https://fontawesome.com/) icons for social media links
+- [Google Fonts](https://fonts.google.com/) to import 'Fjalla One' and 'Cantarell' fonts.
+- [GitHub](https://github.com/) as repository host
+- [Visual Studio Code](https://code.visualstudio.com/) to mock up functioning wireframe
+- [Codeanywhere](https://app.codeanywhere.com/) to develop and commit to github
+- [GitHub Pages](https://pages.github.com/) to deploy the site
+- 
+
+# Testing
+
+## Validating
+
+Throughout the project i have tested the code with:
+
+- [Lighthouse](https://developers.google.com/web/tools/lighthouse)
+- [CSS Validator](https://jigsaw.w3.org/css-validator/)
+- [HTML Validator](https://validator.w3.org/)
+
+## Testing User Stories from (UX) Section
+
+
+
+#### The hero image and text looks good in any responsive size and both shows through the image and tells through text to the user who we are,and what we do
+  
+
+#### Responsinator
+
+- Tested in responsinator
+
+#### Third party testing
+
+- I have gotten positive feedback on both usability and aesthetics from friends, family and professionals testing the site on their devices.
+
+### Lighthouse
+
+Throughout the project i have tested the code with Lighthouse with good results but I stil have to improve the performance and the accessibility.
+
+**Result:** Works as intended
+
+
+
+
+
+# Credits
+
+## Code
+
+### README
+
+- I used [AmyOShea's Angies-Beauty](https://github.com/AmyOShea/Angies-Beauty-MS1) README as template for this README.
+
+
+- Text content was written by me and inspired from [AloMoves]  (https://www.alomoves.com)
+
+### Media
+
+- The logo is made by me 
+
+- Hero image from [unsplash](https://unsplash.com/photos/DijA5f0voGQ)
+
+- Member profile pictures from [pexels(1)](https://www.pexels.com/sv-se/foto/man-person-solglasogon-gata-1182238/), [pexels(2)](https://www.pexels.com/sv-se/foto/man-person-sot-ung-720366/), [pexels(3)](https://www.pexels.com/sv-se/foto/kvinna-jeans-sport-lycklig-7991921/)
+
+- About us picture from [unsplash](https://unsplash.com/photos/m1AsLR8g51g)
+
+- Media video from [pexels](https://www.pexels.com/video/people-trekking-on-a-mountain-trail-2894895/)
+
+- Media images from [unsplash(1)](https://unsplash.com/photos/NEqEC7qa9FM), [unsplash(2)](https://unsplash.com/photos/S_VbdMTsdiA)
