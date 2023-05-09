@@ -2,10 +2,9 @@
 
 YogaMoves is an Online Studio where people find the power to grow and achieve all of their fitness and wellness goals.
 
+You can find the live site [here](https://soukasamadi.github.io/yogamoves/index.html)
 
-You can find the live site [here](https://soukasamadi.github.io/yogamoves/class.html)
-
-![amiresponsive view of different sizes](https://ui.dev/amiresponsive?url=https://soukasamadi.github.io/yogamoves/)
+![yoga Moves responsive](https://github.com/soukasamadi/yogamoves/assets/131408125/473427d6-426e-4752-9344-9165b7fb2c10)
 
 # User Experience
 
@@ -18,20 +17,18 @@ You can find the live site [here](https://soukasamadi.github.io/yogamoves/class.
 
 ## Target audience
 
-- The intended user is anyone who wants to find the Practice Yoga 
+- The intended user is anyone who wants to find the Practice Yoga
 
 ## Key project goals
 
 - Create a website that makes it clear why they would want to join our classes
-- Make it easy to find the best class 
+- Make it easy to find the best class
 
 ## Design
-
 
 ### Typography
 
 - **Verdana** is the font used for the body (with sans serif as fallback) because it is easy to read and looks elegant
-
 
 ### Imagery
 
@@ -43,7 +40,7 @@ I wanted to elicit a feeling of Motivation to start a new lifestyle and Yoga rou
 
 ### inspiration
 
-I get inspired from [Alo Moves] (https://www.alomoves.com) 
+I get inspired from [Alo Moves] (<https://www.alomoves.com>)
 
 # Features
 
@@ -54,6 +51,20 @@ I get inspired from [Alo Moves] (https://www.alomoves.com)
 - Navigation menu changes size,design and position for best tablet, phone and desktop use
 - Some pictures changes direction depending on width of device
 - "Become A Member" button on top of all pages  to Sign In.
+
+## some screenshots
+
+Index Page:
+![soukasamadi github io_yogamoves_index html (3)](https://github.com/soukasamadi/yogamoves/assets/131408125/20b82655-61ea-4432-a1ac-c49835c0c1b6)
+
+Classes Page:
+![soukasamadi github io_yogamoves_about html (1)](https://github.com/soukasamadi/yogamoves/assets/131408125/fbbe3399-011a-45f4-a339-a678010c70fb)
+
+About Page:
+![Uploading soukasamadi.github.io_yogamoves_about.html (2).png…]()
+
+Member Page:
+![soukasamadi github io_yogamoves_member html (1)](https://github.com/soukasamadi/yogamoves/assets/131408125/f6d234f9-fb16-4b97-928c-0fa8cec6948b)
 
 ## Future Features
 
@@ -76,7 +87,7 @@ I get inspired from [Alo Moves] (https://www.alomoves.com)
 - [Visual Studio Code](https://code.visualstudio.com/) to mock up functioning wireframe
 - [Codeanywhere](https://app.codeanywhere.com/) to develop and commit to github
 - [GitHub Pages](https://pages.github.com/) to deploy the site
-- 
+-
 
 # Testing
 
@@ -90,11 +101,8 @@ Throughout the project i have tested the code with:
 
 ## Testing User Stories from (UX) Section
 
-
-
 #### The hero image and text looks good in any responsive size and both shows through the image and tells through text to the user who we are,and what we do
   
-
 #### Responsinator
 
 - Tested in responsinator
@@ -106,34 +114,23 @@ Throughout the project i have tested the code with:
 ### Lighthouse
 
 Throughout the project i have tested the code with Lighthouse with good results but I stil have to improve the performance and the accessibility.
+![lighthouse](https://github.com/soukasamadi/yogamoves/assets/131408125/9814b5d0-7295-4a9a-8ed3-d5937b5aa713)
 
 **Result:** Works as intended
-
-
-
-
 
 # Credits
 
 ## Code
 
+I used some Youtube videos to get the information to create some responsive section without Javascript
+like the [navbar] (<https://www.youtube.com/watch?v=cLOT0APQzDs&t=739s>) and [review-section] (<https://www.youtube.com/watch?v=1CZhGDU5cWM>) but I modified them to look good with my website.
+
 ### README
 
-- I used [AmyOShea's Angies-Beauty](https://github.com/AmyOShea/Angies-Beauty-MS1) README as template for this README.
-
-
-- Text content was written by me and inspired from [AloMoves]  (https://www.alomoves.com)
+- Text content was written by me and inspired from [AloMoves]  (<https://www.alomoves.com>)
 
 ### Media
 
-- The logo is made by me 
+- The logo is made by me Using Html and CSS.
 
-- Hero image from [unsplash](https://unsplash.com/photos/DijA5f0voGQ)
-
-- Member profile pictures from [pexels(1)](https://www.pexels.com/sv-se/foto/man-person-solglasogon-gata-1182238/), [pexels(2)](https://www.pexels.com/sv-se/foto/man-person-sot-ung-720366/), [pexels(3)](https://www.pexels.com/sv-se/foto/kvinna-jeans-sport-lycklig-7991921/)
-
-- About us picture from [unsplash](https://unsplash.com/photos/m1AsLR8g51g)
-
-- Media video from [pexels](https://www.pexels.com/video/people-trekking-on-a-mountain-trail-2894895/)
-
-- Media images from [unsplash(1)](https://unsplash.com/photos/NEqEC7qa9FM), [unsplash(2)](https://unsplash.com/photos/S_VbdMTsdiA)
+- All the images are from [Freepik](https://www.freepik.com)
