@@ -1139,16 +1139,13 @@ input[type="submit"]:hover {
 
     }
 
-        header .member-btn a{
-                padding: 5px;
-        
-                font-size: 10px;
-                letter-spacing: 2px;
-               
-            
-        }
+    header .member-btn a {
+        visibility: hidden;
+    }
 
-                
+
+
+
 
 
 
