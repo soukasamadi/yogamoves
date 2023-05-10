@@ -40,7 +40,7 @@ I wanted to elicit a feeling of Motivation to start a new lifestyle and Yoga rou
 
 ### inspiration
 
-I was inspired by [Alo Moves] (<https://www.alomoves.com>)
+I was inspired by [Alo Moves] (https://www.alomoves.com)
 
 # Features
 
@@ -168,7 +168,7 @@ like the [navbar](https://www.youtube.com/watch?v=cLOT0APQzDs&t=739s) and [revie
 
 ### README
 
-I used this template for my README file : ![Code Institure Readme](https://github.com/Code-Institute-Solutions/readme-template/blob/master/README.md?plain=1)
+I used this template for my README file : [Code Institure Readme](https://github.com/Code-Institute-Solutions/readme-template/blob/master/README.md?plain=1)
 - 
 
 ### Media
