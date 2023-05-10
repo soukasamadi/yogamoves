@@ -175,6 +175,19 @@ header .fa-bars {
 
 }
 
+.class-home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    min-height: 100vh;
+    background: url(../images/erwachsene-frau-die-zu-hause-yoga-praktiziert.jpg) rgba(0, 0, 0, 0.7);
+    background-blend-mode: multiply;
+    background-size: cover;
+    background-position: center bottom;
+    min-height: 650px;
+}
+
 /* discover what moves you section */
 .move {
     margin-top: 25px;
@@ -232,86 +245,90 @@ header .fa-bars {
     line-height: 1.8;
 }
 
-/*Skewed section*/
-
-.skewed-section {
+/*image text section*/
 
 
+.text-imagee {
+    min-height: 100vh;
+    width: 100%;
     display: flex;
-    justify-content: center;
     align-items: center;
-    flex-direction: column;
+    justify-content: center;
+    background-color: #fff;
+}
 
+.text-imagee-container {
+    width: 90%;
+    max-width: 1000px;
+    margin: 50px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
 }
 
-.skewed-section small {
-    color: black;
+.left {
+    width: 50%;
+    height: 500px;
+    background: url(../images/full-shot-happy-woman-indoors.jpg) no-repeat center / cover;
+    border-radius: 8px;
+}
+
+.right {
+    width: 50%;
+    min-height: 600px;
+    max-height: 650px;
+    background-color: #4b4c50;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+    border-radius: 8px;
+    color: white;
+    margin-left: -150px;
+
+}
+
+.right .text-text {
+    padding-top: 10px;
+}
+
+.right .text-text h3 {
     font-size: 14px;
-    font-weight: 600;
-
-
 }
 
-.skewed-section h2 {
-    font-size: 22px;
-    color: black;
+.right .text-text h2 {
+    font-size: 40px;
+    font-weight: lighter;
 }
 
-.skewed-section p {
-    margin: 0;
-    color: #333;
+.right .text-text p {
+    margin: 20px 0;
+    font-weight: 500;
+    line-height: 25px;
     font-size: 16px;
-    line-height: 24px;
-
-
 }
 
-.skewed-section .skewed {
-
-    display: flex;
-    margin: 0;
-
-}
-
-.skewed-section .text {
-    color: #777;
-    padding: 1.5em;
-    width: 50%;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: flex-start;
-    flex-direction: column;
-}
-
-.skewed-section .image {
-    width: 50%;
-    height: 40em;
-    position: relative;
-    overflow: hidden;
-}
-
-
-
-.skewed-section a {
-    padding: 1rem 3rem;
+.right .text-text a {
+    text-decoration: none;
+    text-transform: uppercase;
     background-color: black;
-    font-size: 16px;
-    color: #fff;
-    text-transform: uppercase;
-
-    letter-spacing: 3px;
+    color: white;
+    padding: 20px 30px;
+    display: inline-block;
+    letter-spacing: 2px;
 }
 
-.skewed-section a:hover {
-    padding: 1rem 3rem;
-    background-color: #d4b895;
-    font-size: 16px;
+.right .text-text a:hover {
+    text-decoration: none;
+    text-transform: uppercase;
+    background-color: white;
     color: black;
-    text-transform: uppercase;
-
-    letter-spacing: 3px;
+    padding: 20px 30px;
+    display: inline-block;
+    letter-spacing: 2px;
 }
+
 
 /*contact SEction*/
 
@@ -566,6 +583,7 @@ footer h3 {
 
 .slide-content {
     line-height: 50px;
+    max-height: 300px;
 }
 
 
@@ -576,7 +594,7 @@ footer h3 {
 }
 
 .slide-content p {
-    font-size: 20px;
+    font-size: 25px;
     font-weight: 700;
 }
 
@@ -666,51 +684,34 @@ footer h3 {
 
 /*review container*/
 
-.review-container {
+.review-container{
+    text-align: center;
+}
 
-    margin-top: 100px;
-    padding: 15px 9%;
-    padding-bottom: 100px;
+.box-review {
+    margin-top: 50px;
+    
+}
 
+.box-review .box {
+    display: inline-block;
+    margin: 10px 20px;
+    width: 22%;
+    font-size: 40px;
+}
+
+.box-review .box h3{
+    font-size: 30px;
+}
+
+.box-review .box p{
+    font-size: 23px;
 }
 
 
 
-.review-container .box-review {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
-    gap: 15px;
-    display: flex;
-    justify-content: space-between;
-
-}
-
-.review-container .box-review .box {
-    padding-right: 80px;
-    padding-left: 80px;
 
 
-}
-
-
-
-
-.review-container .box-review .box h3 {
-    color: black;
-    font-size: 26px;
-    padding: 10px 0;
-}
-.review-container .box-review .box .stars {
-    color: black;
-    font-size: 26px;
-    padding: 10px 0;
-}
-
-.review-container .box-review .box p {
-    color: #777;
-    font-size: 18px;
-    line-height: 1.8;
-}
 
 
 .about-section {
@@ -1038,19 +1039,27 @@ input[type="submit"]:hover {
         height: 250px
     }
 
-    .skewed-section .skewed {
+    .text-imagee {
         display: block;
-
     }
 
-    .skewed-section .image,
-    .skewed-section .text {
+    .left {
         width: 100%;
-        height: 300px;
+        height: 400px;
     }
 
+    .right {
+        width: 90%;
+        margin: 0;
+        margin-top: -100px;
+    }
 
-
+    .box-review .box {
+        display: block;
+        margin: 10px 20px;
+        width: 100%;
+        font-size: 40px;
+    }
 
     #slide1:checked~#controls label:nth-child(2),
     #slide2:checked~#controls label:nth-child(3),
@@ -1107,36 +1116,42 @@ input[type="submit"]:hover {
     }
 
 
+
+
+
+
+    /*text in the middle of a line*/
+
+    .h1 {
+        display: flex;
+        flex-direction: row;
+        margin-bottom: 50px;
+    }
+
+    .h1:before,
+    .h1:after {
+        content: "";
+        flex: 1 1;
+        border-bottom: 1px solid;
+        margin: auto;
+    }
+
+    .h1:before {
+        margin-right: 10px;
+    }
+
+    .h1:after {
+        margin-left: 10px;
+    }
+
+
+
 }
 
 
 
-/*text in the middle of a line*/
 
-.h1 {
-    display: flex;
-    flex-direction: row;
-    margin-bottom: 50px;
-}
-
-.h1:before,
-.h1:after {
-    content: "";
-    flex: 1 1;
-    border-bottom: 1px solid;
-    margin: auto;
-}
-
-.h1:before {
-    margin-right: 10px
-}
-
-.h1:after {
-    margin-left: 10px
-}
-
-
-@media (max-width:450px) {
+@media (max-width:480px) {
 
     html {
         font-size: 50%;
@@ -1146,6 +1161,37 @@ input[type="submit"]:hover {
 
     header .member-btn a {
         visibility: hidden;
+    }
+
+    .skewed-section .skewed {
+        display: block;
+    }
+
+    .skewed-section .skewed .text {
+        left: 0;
+        right: 0;
+    }
+
+    .skewed-section small {
+        color: black;
+        font-size: 12px;
+        font-weight: 600;
+
+
+    }
+
+    .skewed-section h2 {
+        font-size: 18px;
+        color: black;
+    }
+
+    .skewed-section p {
+        margin: 0;
+        color: #333;
+        font-size: 14px;
+        line-height: 22px;
+
+
     }
 
 
@@ -1168,16 +1214,7 @@ input[type="submit"]:hover {
         height: 220px
     }
 
-    .skewed-section .skewed {
-        display: block;
 
-    }
-
-    .skewed-section .image,
-    .skewed-section .text {
-        width: 100%;
-        height: 300px;
-    }
 
 
 }
