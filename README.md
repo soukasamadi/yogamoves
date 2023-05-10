@@ -161,10 +161,7 @@ I was inspired by [Alo Moves] (https://www.alomoves.com)
 
 # Credits
 Text content was written by me but I was inspired by [AloMoves](https://www.alomoves.com)
-## Code
 
-I used some Youtube videos to get the information to create some responsive section without Javascript
-like the [navbar](https://www.youtube.com/watch?v=cLOT0APQzDs&t=739s) and [review-section](https://www.youtube.com/watch?v=1CZhGDU5cWM) but I modified them to look good with my website.
 
 ### README
 
