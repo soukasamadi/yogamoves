@@ -52,19 +52,23 @@ I get inspired from [Alo Moves] (<https://www.alomoves.com>)
 - Some pictures changes direction depending on width of device
 - "Become A Member" button on top of all pages  to Sign In.
 
-## some screenshots
+## Pages screenshots
 
-Index Page:
+### Index Page
+
 ![soukasamadi github io_yogamoves_index html (3)](https://github.com/soukasamadi/yogamoves/assets/131408125/20b82655-61ea-4432-a1ac-c49835c0c1b6)
 
-Classes Page:
+### Classes Page
+
 ![soukasamadi github io_yogamoves_about html (1)](https://github.com/soukasamadi/yogamoves/assets/131408125/fbbe3399-011a-45f4-a339-a678010c70fb)
 
-About Page:
-![Uploading soukasamadi.github.io_yogamoves_about.html (2).png…]()
+### About Page
 
-Member Page:
-![soukasamadi github io_yogamoves_member html (1)](https://github.com/soukasamadi/yogamoves/assets/131408125/f6d234f9-fb16-4b97-928c-0fa8cec6948b)
+![soukasamadi github io_yogamoves_about html (2)](https://github.com/soukasamadi/yogamoves/assets/131408125/63a6a321-ea90-4db1-bea1-f0bf57fa1ab2)
+
+### Member Page
+
+![soukasamadi github io_yogamoves_member html](https://github.com/soukasamadi/yogamoves/assets/131408125/d7cb6710-adaf-4d20-8522-0d354b48f783)
 
 ## Future Features
 
@@ -123,11 +127,11 @@ Throughout the project i have tested the code with Lighthouse with good results 
 ## Code
 
 I used some Youtube videos to get the information to create some responsive section without Javascript
-like the [navbar] (<https://www.youtube.com/watch?v=cLOT0APQzDs&t=739s>) and [review-section] (<https://www.youtube.com/watch?v=1CZhGDU5cWM>) but I modified them to look good with my website.
+like the [navbar](https://www.youtube.com/watch?v=cLOT0APQzDs&t=739s) and [review-section](https://www.youtube.com/watch?v=1CZhGDU5cWM) but I modified them to look good with my website.
 
 ### README
 
-- Text content was written by me and inspired from [AloMoves]  (<https://www.alomoves.com>)
+- Text content was written by me and inspired from [AloMoves](https://www.alomoves.com)
 
 ### Media
 

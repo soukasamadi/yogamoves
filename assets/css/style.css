@@ -253,7 +253,7 @@ header .fa-bars {
 
 }
 
-.skewed-section h1 {
+.skewed-section h2 {
     font-size: 22px;
     color: black;
 }
@@ -696,6 +696,11 @@ footer h3 {
 
 
 .review-container .box-review .box h3 {
+    color: black;
+    font-size: 26px;
+    padding: 10px 0;
+}
+.review-container .box-review .box .stars {
     color: black;
     font-size: 26px;
     padding: 10px 0;
