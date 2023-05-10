@@ -1,4 +1,4 @@
-# YogaMoves online Studio website
+# YogaMoves 
 
 YogaMoves is an Online Studio where people find the power to grow and achieve all of their fitness and wellness goals.
 
@@ -46,29 +46,64 @@ I get inspired from [Alo Moves] (<https://www.alomoves.com>)
 
 ## Current Features
 
-- The website is made to be fully responsive at all tested device sizes
-- The website is made to be accessible.
-- Navigation menu changes size,design and position for best tablet, phone and desktop use
-- Some pictures changes direction depending on width of device
-- "Become A Member" button on top of all pages  to Sign In.
+- **Navigation Bar**
+
+  - Featured on all four pages, the full responsive navigation bar includes links to the Logo, Home page, Classes page and about page plus a button in the right side linked to the Sign In pag. It is identical in each page to allow for easy navigation.
+  - This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button.
+
+
+- **The landing page image**
+
+  - The landing includes a photograph with text overlay to allow the user to see exactly which location this site would be applicable to.
+  - This section introduces the user to Love Running with an eye catching animation to grab their attention
+
+
+
+- **Discover Classes Section**
+
+  - The Discover Classes section will allow the user to see the available course.
+  
+
+
+- **contact section**
+
+   -This section will allow the user to easily contact a responsible in YogaMoves.
+
+- **The Footer**
+
+  - The footer section includes links to the relevant pages  for YogaMoves.
+  
+
+
+
+
+- **The Sign In Page**
+
+  - This page will allow the user to get signed in to YogaMoves to start their Yoga journey with the community.
+
+
+
 
 ## Pages screenshots
 
 ### Index Page
 
-![soukasamadi github io_yogamoves_index html (3)](https://github.com/soukasamadi/yogamoves/assets/131408125/20b82655-61ea-4432-a1ac-c49835c0c1b6)
+![Home Page](https://github.com/soukasamadi/yogamoves/assets/131408125/01a7872c-640a-496c-a7af-5f3a95f73898)
+
 
 ### Classes Page
 
-![soukasamadi github io_yogamoves_about html (1)](https://github.com/soukasamadi/yogamoves/assets/131408125/fbbe3399-011a-45f4-a339-a678010c70fb)
+![classes Page](https://github.com/soukasamadi/yogamoves/assets/131408125/99d3c346-b6fa-4fe3-8e70-53d14e2d284e)
+
 
 ### About Page
 
-![soukasamadi github io_yogamoves_about html (2)](https://github.com/soukasamadi/yogamoves/assets/131408125/63a6a321-ea90-4db1-bea1-f0bf57fa1ab2)
+![About Page](https://github.com/soukasamadi/yogamoves/assets/131408125/64639d8b-02bb-46d3-8865-ee4e3dbeca05)
+
 
 ### Member Page
 
-![soukasamadi github io_yogamoves_member html](https://github.com/soukasamadi/yogamoves/assets/131408125/d7cb6710-adaf-4d20-8522-0d354b48f783)
+![Member Page](https://github.com/soukasamadi/yogamoves/assets/131408125/d7cb6710-adaf-4d20-8522-0d354b48f783)
 
 ## Future Features
 
@@ -97,11 +132,16 @@ I get inspired from [Alo Moves] (<https://www.alomoves.com>)
 
 ## Validating
 
-Throughout the project i have tested the code with:
+### HTML & CSS
 
-- [Lighthouse](https://developers.google.com/web/tools/lighthouse)
+  No errors were returned when passing through the official:
 - [CSS Validator](https://jigsaw.w3.org/css-validator/)
 - [HTML Validator](https://validator.w3.org/)
+  
+### Lighthouse
+
+- [Lighthouse](https://developers.google.com/web/tools/lighthouse)
+   Throughout the project i have tested the code with Lighthouse with good results but I stil have to improve the performance.
 
 ## Testing User Stories from (UX) Section
 
@@ -115,15 +155,12 @@ Throughout the project i have tested the code with:
 
 - I have gotten positive feedback on both usability and aesthetics from friends, family and professionals testing the site on their devices.
 
-### Lighthouse
 
-Throughout the project i have tested the code with Lighthouse with good results but I stil have to improve the performance and the accessibility.
-![lighthouse](https://github.com/soukasamadi/yogamoves/assets/131408125/9814b5d0-7295-4a9a-8ed3-d5937b5aa713)
 
 **Result:** Works as intended
 
 # Credits
-
+Text content was written by me but I was inspired by [AloMoves](https://www.alomoves.com)
 ## Code
 
 I used some Youtube videos to get the information to create some responsive section without Javascript
@@ -131,7 +168,8 @@ like the [navbar](https://www.youtube.com/watch?v=cLOT0APQzDs&t=739s) and [revie
 
 ### README
 
-- Text content was written by me and inspired from [AloMoves](https://www.alomoves.com)
+I used this template for my README file : ![Code Institure Readme](https://github.com/Code-Institute-Solutions/readme-template/blob/master/README.md?plain=1)
+- 
 
 ### Media
 
