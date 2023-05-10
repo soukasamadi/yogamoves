@@ -40,7 +40,7 @@ I wanted to elicit a feeling of Motivation to start a new lifestyle and Yoga rou
 
 ### inspiration
 
-I get inspired from [Alo Moves] (<https://www.alomoves.com>)
+I was inspired by [Alo Moves] (<https://www.alomoves.com>)
 
 # Features
 
